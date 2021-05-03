@@ -72,7 +72,7 @@ const getProductAttempt = (request, response) => {
                         url: `localhost:8080/dashboard/products/${doc._id}`
                     }
                 }
-                response.send({ status: 200, product });
+                response.send(product);
             } else {
                 response.send({ status: 404, message: 'No valid entry found for provided productID' });
             }
