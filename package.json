@@ -4,7 +4,7 @@
   "description": "Olx app in React and Server in Node.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "R-S",
